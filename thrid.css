@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Header */
+.container {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#header {
+    flex: 1;
+}
+
+#header a {
+    display: block;
+    text-decoration: none;
+    color: rgb(32, 74, 140);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.email, .phoneno {
+    font-size: 14px;
+}
+
+#nav {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(32, 74, 140);
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+.firsttexts {
+    margin-top: 20px;
+}
+
+.firststep {
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first-text {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(52, 52, 137);
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+/* Skills Section */
+.skills {
+    margin: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(108, 99, 99);
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+#control {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.whole {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgba(29, 25, 25, 0.725);
+}
+
+/* Projects Section */
+.projects {
+    margin: 20px 0;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 15px;
+}
+
+#opt {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#letit {
+    font-size: 20px;
+    text-decoration: underline rgb(156, 124, 124);
+}
+
+.project {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Recommendations Section */
+.reco {
+    margin: 20px 0;
+}
+
+.dabba {
+    width: 350px;
+    height: 250px;
+    border: 2px solid rgb(108, 99, 99);
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#wid {
+    margin-top: 60px;
+    font-size: 18px;
+    color: rgb(101, 42, 179);
+}
+
+/* Leave a Recommendation Section */
+.leaverecom {
+    margin: 20px 0;
+}
+
+.inputer {
+    width: 100%;
+    max-width: 800px;
+}
+
+#texter, #message {
+    width: 100%;
+    border: 2px solid rgb(108, 99, 99);
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#texter {
+    height: 25px;
+}
+
+#message {
+    height: 150px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(108, 99, 99);
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav {
+        text-align: center;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .inputer {
+        width: 100%;
+    }
+}

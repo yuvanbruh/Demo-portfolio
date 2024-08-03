@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite
+}
+h1{
+    font-size: 30px;
+    color: 919177;
+
+}
+#principal{
+    color: blue;
+    font-size: 20px;
+    font-size: xx-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.maindiv{
+    background-color: white;
+    color: 00000;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+}

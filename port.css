@@ -1,0 +1,372 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #91717171; */
+    /* height: 3000px; */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    width: 1448px;
+    /* height: x; */
+    /* overflow-x: hidden; Prevent horizontal scrolling */
+  }
+.container{
+    background-color: grey;
+    height: 125px;
+    border: 2px solid black;
+    /* width: 1448px; */
+}
+#deadpool{
+    margin-top: 50px;
+}
+.flex-container{
+    display: flex;
+    /* width: 1440px; */
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    gap: 100px;
+    /* flex-direction: row-reverse; */
+}
+#nav{
+    /* padding-left: 800px; */
+    /* border; */
+    /* border-radius:200px ; */
+    /* border-left: 200px; */
+    /* width: 1000px; */
+    margin-left: 350px;
+    font-size: 25px;
+    font-weight: bolder;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    /* color: blueviolet; */
+   
+}
+nav a{
+    text-decoration: none;
+    color: rgb(32, 74, 140);
+}
+/* nav a:hover {
+    background-color: burlywood;
+    color: black;
+    
+    /* text-emphasis: none; */
+   
+
+nav a:focus {
+    outline: none; /* Remove box shape */
+}
+
+#header{
+    /* padding-left: 200px; */
+    /* margin-left: 200px; */
+    padding-left: 25px;
+    margin-top: 25px;
+    /* justify-content: ; */
+
+}
+#header a{
+    text-decoration: none;
+}
+.name{
+    font-size: 30px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-variant: normal; */
+    /* color: rgb(213, 69, 136); */
+    text-shadow: #91717171;
+
+
+}
+.email{
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.phoneno{
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.aboutme{
+    margin-right: 50px;
+}
+.projects{
+    margin-right: 50px;
+
+}
+.skills{
+    margin-right: 50px;
+
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 150px;
+    /* -webkit-box-direction: ; */
+    width: 1448px;
+}
+/* .firsttexts{
+    /* hight: 20px; */
+#image{
+    width: 1000px;
+    /* height: 1000px; */
+    margin-left: 50px;
+}
+.firsttexts{
+    /* width: 10000pxx; */
+    /* height: 1px; */
+    /* color: aqua; */
+}
+#inputs{
+    padding-right: 100px;
+    margin-left: 100px;
+    
+}
+.firststep{
+    color: black;
+    font-weight: bolder;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-text{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(52, 52, 137);
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.skills{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 100px;
+    border-color: blue;
+    border-radius: 100px; */
+}
+/* .box{
+    width: 150px;
+    height: 150px;
+    /* border-color: rgb(33, 33, 37); */
+    /* border: 20px black; */
+    /* border: 2px solid black; */
+    /* text-align: center; */
+
+    /* border: 100px; */
+
+
+    .box {
+        width: 150px;
+        height: 150px;
+        border: 2px solid rgb(108, 99, 99); /* Regular border */
+        box-shadow: 0 0 10px rgba(125, 98, 98, 0.5); 
+        text-align: center;
+        /* line-height: 150px; Vertically centers text */
+        border-radius: 10px; /* Optional: rounded corners */
+    }
+    
+.skills{
+    margin-top: 100px;
+    /* border-color: black; */
+    /* border-radius: 20px; */
+    width: 1440px;
+    height: 80px;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+
+/* #blank{
+    width: 5px;
+    height: 60px;
+} */
+#class5{
+    margin-top: 50px;
+}
+#tell{
+    margin-top: 20px;
+}
+#control{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+.box{
+    font-weight: bold;
+}
+.whole{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: 10; */
+    font-weight: lighter;
+    color: rgba(29, 25, 25, 0.725);
+}
+.projects{
+    margin-top: 400px;
+    margin-left: 70px;
+}
+
+#opt{
+    font-size: 25px;
+    font-weight: 600;
+}
+#letit{
+    font-size: 20px;
+    /* text-decoration: l; */
+    /* text-decoration: underline; */
+    text-decoration: underline rgb(156, 124, 124);
+    /* text-decoration: dotted; */
+}
+.project{
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 100px; */
+    /* align-items: end; */
+    /* padding-right: 1000px; */
+    /* width: 100px; */
+}
+.dabba{
+    width: 350px;
+    height: 250px;
+    border: 2px solid rgb(108, 99, 99); /* Regular border */
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5); 
+    text-align: center;
+    /* line-height: 150px; Vertically centers text */
+    border-radius: 10px; /* Optional: rounded corners */   
+    text-align: center;
+    justify-content: center;
+}
+/* #recommendations{
+    /* margin-top: 100px; */
+
+#wid{
+    margin-top: 60px;
+    font-size: 18px;
+    color: rgb(101, 42, 179);
+}
+.reco{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.recom
+{
+    /* padding-right: 100000px; */
+    /* padding-inline-start: 10px; */
+    /* margin-right: 1000px; */
+}
+.leaverecom{
+    margin-top: 150px;
+    margin-left: 280px;
+}
+.inputer{
+    width: 800px;
+}
+#texter{
+    height: 25px;
+    /* border: 20px solid black; */
+    border: 2px solid rgb(108, 99, 99); /* Regular border */
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5); 
+    text-align: center;
+    /* line-height: 150px; Vertically centers text */
+    border-radius: 10px; /* Optional: rounded corners */   
+}
+#message{
+    height: 200px;
+    margin-top: 20px;
+    border: 2px solid rgb(108, 99, 99); /* Regular border */
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5); 
+    /* text-align: left; */
+    text-align: center;
+    /* line-height: 150px; Vertically centers text */
+    border-radius: 10px; /* Optional: rounded corners */   
+}
+.button{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    /* justify-self: center; */
+    margin-left: 650px;
+    /* width: 500px;
+    height: 50px; */
+}
+#button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(108, 99, 99); /* Regular border */
+    box-shadow: 0 0 10px rgba(125, 98, 98, 0.5); 
+    /* text-align: left; */
+    text-align: center;
+    /* line-height: 150px; Vertically centers text */
+    border-radius: 10px; /* Optional: rounded corners */   
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* @media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav {
+        text-align: center;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .inputer {
+        width: 100%;
+    }
+} */
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .firsttexts {
+        margin: 10px;
+    }
+
+    .box {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .inputer {
+        width: 100%;
+    }
+}
